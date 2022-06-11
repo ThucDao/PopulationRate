@@ -30,5 +30,7 @@ Some observations:
 • For 70 years, Asian countries seem to have a well-balanced distribution of population rates.
  
 Data source:
+
 Rate of Natural Population Increase – Population Division, United Nations
+
 https://population.un.org/wpp/Download/Files/1_Indicators%20(Standard)/EXCEL_FILES/1_Population/WPP2019_POP_F03_RATE_OF_NATURAL_INCREASE.xlsx
