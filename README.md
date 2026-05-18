@@ -1,36 +1,57 @@
-Python vs. R: How easy is it to make a single graph of density plots, box plots, and swarm plots?
+# Python vs. R: How easy is it to make a single graph of density plots, box plots, and swarm plots?
  
 I primarily write code in Python rather than R. However, I find Python not easy for complex visualizations; that is when R comes into play. In an attempt to visualize the natural population rate in the world over 70 years from 1950 to 2020 with density plots, box plots, and swarm plots in a single graph, I have to switch from Python to R. I would appreciate it if anyone could show me how to create these graphs in Python.
  
 Of the eight graphs, the first three make use of flags to better visualize data without legends. The other five ones don’t have flags because of the dense dots.
  
-Graph description:
+## Graph description:
 
-1) Population rate in Vietnam (my homeland): the simplest one of comparing a country with the world.
+### 1) Population rate in Vietnam (my homeland)
+&emsp;&nbsp;The simplest one of comparing a country with the world.
 
-2) Population rate in Northern America: you can have a comparison of two countries to each other and both vs. the world.
+![](Graphs/1_Population_rate_in_Vietnam.png)
 
-3) Population rate in countries of max and min rates: an expanded version where flags are labeled. You can see countries of max and min natural population rates in each 5-year period.
+### 2) Population rate in Northern America
+&emsp;&nbsp;&nbsp;You can have a comparison of two countries to each other and both vs. the world.
 
-4) to 8) Population rate in Latin America and the Caribbean, Europe, Africa, Asia, and Oceania.
-Graphs #4 to #8 show the distribution of population rates of regional countries in comparison with the rest of the world.
+![](Graphs/2_Population_rate_in_Northern_America.png)
+
+### 3) Population rate in countries of max and min rates: an expanded version where flags are labeled 
+&emsp;&nbsp;&nbsp;You can see countries of max and min natural population rates in each 5-year period.
+
+![](Graphs/3_Population_rate_in_countries_of_max_and_min_rates.png)
+
+### 4) to 8) Population rate in Latin America and the Caribbean, Europe, Africa, Asia, and Oceania
+&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;Graphs #4 to #8 show the distribution of population rates of regional countries in comparison with the rest of the world.
+   
+![](Graphs/4_Population_rate_in_Latin_America_and_the_Caribbean.png)
+   
+![](Graphs/5_Population_rate_in_Europe.png)
+
+![](Graphs/6_Population_rate_in_Africa.png)
+
+![](Graphs/7_Population_rate_in_Asia.png)
+
+![](Graphs/8_Population_rate_in_Oceania.png)
  
-Some observations:
+## Some observations:
 
-• It is a surprise that Vietnam’s natural population rates were higher than the world’s median during the First and Second Indochina War, and kept equal to the world’s median throughout the Cambodian–Vietnamese War. Astonishingly, its natural population rates have been consistently lower than the world’s median since the Vietnam–U.S. normalization in 1995.
+- It is a surprise that Vietnam’s natural population rates were higher than the world’s median during the First and Second Indochina War, and kept equal to the world’s median throughout the Cambodian–Vietnamese War. Astonishingly, its natural population rates have been consistently lower than the world’s median since the Vietnam–U.S. normalization in 1995.
 
-• Canada’s natural population rates were higher than the U.S.’s from 1950 to 1990. The rates were the same in both countries between 1990 and 1995. Since then, the U.S. has experienced higher natural population rates than Canada. At all times, both countries’ rates were lower than the world’s median.
+- Canada’s natural population rates were higher than the U.S.’s from 1950 to 1990. The rates were the same in both countries between 1990 and 1995. Since then, the U.S. has experienced higher natural population rates than Canada. At all times, both countries’ rates were lower than the world’s median.
 
-• The world’s upper rates have been almost unchanged over 70 years, while the world’s lower rates have been gradually decreasing from positive to negative. Most countries having the max rates are in the Middle East and recently in Africa. Most countries having the min rates are in Europe, with two exceptions of North Korea (during the Korean War 1950–1953) and Cambodia (during the Cambodian genocide 1975–1979).
+- The world’s upper rates have been almost unchanged over 70 years, while the world’s lower rates have been gradually decreasing from positive to negative. Most countries having the max rates are in the Middle East and recently in Africa. Most countries having the min rates are in Europe, with two exceptions of North Korea (during the Korean War 1950–1953) and Cambodia (during the Cambodian genocide 1975–1979).
 
-• At any time, European countries are almost in the 25% of countries in the world with lower natural population rates.
+- At any time, European countries are almost in the 25% of countries in the world with lower natural population rates.
 
-• Vice versa, since 1970, most African countries have had natural population rates higher than the world’s median.
+- Vice versa, since 1970, most African countries have had natural population rates higher than the world’s median.
 
-• For 70 years, Asian countries seem to have a well-balanced distribution of population rates.
- 
-Data source:
+- For 70 years, Asian countries seem to have a well-balanced distribution of population rates.
 
-Rate of Natural Population Increase – Population Division, United Nations
-
-https://population.un.org/wpp/Download/Files/1_Indicators%20(Standard)/EXCEL_FILES/1_Population/WPP2019_POP_F03_RATE_OF_NATURAL_INCREASE.xlsx
+---    
+    
+> **Data source:**
+> 
+> *Rate of Natural Population Increase – Population Division, United Nations*
+> 
+> https://population.un.org/wpp/Download/Files/1_Indicators%20(Standard)/EXCEL_FILES/1_Population/WPP2019_POP_F03_RATE_OF_NATURAL_INCREASE.xlsx
