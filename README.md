@@ -16,12 +16,12 @@ Of the eight graphs, the first three make use of flags to better visualize data 
 
 ![](Graphs/2_Population_rate_in_Northern_America.png)
 
-### 3) Population rate in countries of max and min rates: an expanded version where flags are labeled 
+### 3) Population rate in countries of max and min rates: an expanded version with labeled flags
 &emsp;&nbsp;&nbsp;You can see countries of max and min natural population rates in each 5-year period.
 
 ![](Graphs/3_Population_rate_in_countries_of_max_and_min_rates.png)
 
-### 4) to 8) Population rate in Latin America and the Caribbean, Europe, Africa, Asia, and Oceania
+### 4) to 8) Population rate in Latin America & the Caribbean, Europe, Africa, Asia, and Oceania
 &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;Graphs #4 to #8 show the distribution of population rates of regional countries in comparison with the rest of the world.
    
 ![](Graphs/4_Population_rate_in_Latin_America_and_the_Caribbean.png)
